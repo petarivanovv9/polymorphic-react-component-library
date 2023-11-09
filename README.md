@@ -1,1 +1,1 @@
-# polymorphic-react-component-library
+# Polymorphic React Component Library with TypeScript & Tailwind CSS
