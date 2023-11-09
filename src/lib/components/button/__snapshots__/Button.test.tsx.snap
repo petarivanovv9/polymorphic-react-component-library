@@ -1,0 +1,99 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button > Props > should match snapshot 1`] = `
+<div>
+  <button
+    class="appearance-none cursor-pointer inline-flex align-center items-center align-self-center gap-2 transition duration-200 ease border border-transparent rounded-md hover:shadow-md focus:outline-none focus:ring-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:shadow-none text-white bg-secondary-500 ring-secondary-300 hover:bg-secondary-700 active:bg-secondary-900 disabled:hover:bg-secondary-500 text-base px-3 py-1.5 min-h-9.5"
+    type="button"
+  >
+    Content
+  </button>
+</div>
+`;
+
+exports[`Button > Props > should match snapshot when rendering \`as\` React component 1`] = `
+<div>
+  <a
+    href="https://random.com"
+  >
+    Link
+  </a>
+</div>
+`;
+
+exports[`Button > Props > should match snapshot when rendering \`as\` anchor \`<a>\` 1`] = `
+<div>
+  <a
+    class="appearance-none cursor-pointer inline-flex align-center items-center align-self-center gap-2 transition duration-200 ease border border-transparent rounded-md hover:shadow-md focus:outline-none focus:ring-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:shadow-none text-white bg-secondary-500 ring-secondary-300 hover:bg-secondary-700 active:bg-secondary-900 disabled:hover:bg-secondary-500 text-base px-3 py-1.5 min-h-9.5"
+    href="https://random.com"
+  >
+    Content
+  </a>
+</div>
+`;
+
+exports[`Button > Props > should match snapshot with \`fullWidth\` 1`] = `
+<div>
+  <button
+    class="appearance-none cursor-pointer inline-flex align-center items-center align-self-center gap-2 transition duration-200 ease border border-transparent rounded-md hover:shadow-md focus:outline-none focus:ring-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:shadow-none text-white bg-secondary-500 ring-secondary-300 hover:bg-secondary-700 active:bg-secondary-900 disabled:hover:bg-secondary-500 text-base px-3 py-1.5 min-h-9.5 w-full justify-center"
+    type="button"
+  >
+    Content
+  </button>
+</div>
+`;
+
+exports[`Button > Props > should match snapshot with \`size\` 1`] = `
+<div>
+  <button
+    class="appearance-none cursor-pointer inline-flex align-center items-center align-self-center gap-2 transition duration-200 ease border border-transparent rounded-md hover:shadow-md focus:outline-none focus:ring-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:shadow-none text-white bg-secondary-500 ring-secondary-300 hover:bg-secondary-700 active:bg-secondary-900 disabled:hover:bg-secondary-500 text-lg px-4 py-2 min-h-11.5"
+    type="button"
+  >
+    Content
+  </button>
+</div>
+`;
+
+exports[`Button > Props > should match snapshot with default (solid) \`variant\` 1`] = `
+<div>
+  <button
+    class="appearance-none cursor-pointer inline-flex align-center items-center align-self-center gap-2 transition duration-200 ease border border-transparent rounded-md hover:shadow-md focus:outline-none focus:ring-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:shadow-none text-white bg-primary-500 ring-primary-300 hover:bg-primary-700 active:bg-primary-900 disabled:hover:bg-primary-500 text-base px-3 py-1.5 min-h-9.5"
+    type="button"
+  >
+    Content
+  </button>
+</div>
+`;
+
+exports[`Button > Props > should match snapshot with ghost \`variant\` 1`] = `
+<div>
+  <button
+    class="appearance-none cursor-pointer inline-flex align-center items-center align-self-center gap-2 transition duration-200 ease border rounded-md hover:shadow-md focus:outline-none focus:ring-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:shadow-none text-primary-500 bg-white border-transparent ring-primary-300 hover:text-primary-700 hover:bg-primary-50 hover:border-primary-700 active:border-primary-800 active:bg-primary-100 disabled:hover:text-primary-500 disabled:hover:bg-white disabled:hover:border-transparent text-base px-3 py-1.5 min-h-9.5"
+    type="button"
+  >
+    Content
+  </button>
+</div>
+`;
+
+exports[`Button > Props > should match snapshot with link \`variant\` 1`] = `
+<div>
+  <button
+    class="appearance-none cursor-pointer inline-flex align-center items-center align-self-center gap-2 transition duration-200 ease border rounded-md focus:outline-none focus:ring-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:shadow-none text-primary-500 bg-transparent border-transparent ring-primary-300 hover:text-primary-700 hover:transparent hover:underline hover:shadow-none disabled:hover:text-primary-500 disabled:hover:bg-transparent disabled:hover:border-transparent disabled:hover:no-underline text-base px-3 py-1.5 min-h-9.5"
+    type="button"
+  >
+    Content
+  </button>
+</div>
+`;
+
+exports[`Button > Props > should match snapshot with outline \`variant\` 1`] = `
+<div>
+  <button
+    class="appearance-none cursor-pointer inline-flex align-center items-center align-self-center gap-2 transition duration-200 ease border rounded-md hover:shadow-md focus:outline-none focus:ring-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:shadow-none text-primary-500 bg-white border-primary-500 ring-primary-300 hover:text-primary-700 hover:bg-primary-50 hover:border-primary-700 active:border-primary-800 active:bg-primary-100 disabled:hover:text-primary-500 disabled:hover:bg-white disabled:hover:border-primary-500 text-base px-3 py-1.5 min-h-9.5"
+    type="button"
+  >
+    Content
+  </button>
+</div>
+`;
